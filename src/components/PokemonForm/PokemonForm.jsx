@@ -14,7 +14,7 @@ const PokemonForm = (props) => {
   const handleSubmit = (evt) => {
     evt.preventDefault();
     props.addPokemon(formData);
-    setFormData(initialState);
+    // setFormData(initialState);
     navigate('/pokemon'); {/* redirect to pokemon List component */}
   };
 
